@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  background-color: #0d0d0d;
+}
+
+h1 {
+  color: #0084ff;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="text"], textarea {
+  flex: 1;
+  padding: 12px;
+  background-color: #1c1c1c;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 60px;
+  resize: vertical;
+  margin-bottom: 15px;
+}
+
+.generate-btn {
+  background-color: #007bff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.output-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.output-box {
+  flex: 1;
+  min-width: 48%;
+  background-color: #000;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.output-box pre {
+  white-space: pre-wrap;
+  color: rgb(255, 255, 255);
+  font-family: Consolas, monospace;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #111;
+}
+
+.results-table th,
+.results-table td {
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+  border-bottom: 1px solid #333;
+}
+
+.results-table th {
+  background-color: #0d6efd;
+  font-weight: bold;
+}
+
+.results-table tr:nth-child(even) {
+  background-color: #1c1c1c;
+}
+
+.results-table tr:hover {
+  background-color: #2a2a2a;
+}

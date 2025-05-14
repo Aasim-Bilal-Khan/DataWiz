@@ -1,0 +1,8 @@
+Flask
+flask_cors
+python-dotenv
+mysql-connector-python
+langchain
+langchain-groq
+deep-translator
+
