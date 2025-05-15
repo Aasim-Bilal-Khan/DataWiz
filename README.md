@@ -18,8 +18,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/datawiz-agent.git
-cd datawiz-agent/backend
+git clone https://github.com/Aasim-Bilal-Khan/datawiz.git
+cd datawiz/backend
 ```
 ### 2. Set Up Virtual Environment (Recommended)
 
